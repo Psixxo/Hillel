@@ -18,6 +18,6 @@ public class Main {
             tax = 6.7 / 100;
         }
         double total = inc * tax;
-        System.out.printf("The amount of tax on income is %.2f UAH: %.2f UAH%n", inc, total);
+        System.out.printf("The amount of income tax %.2f UAH is: %.2f UAH%n", inc, total);
     }
 }
