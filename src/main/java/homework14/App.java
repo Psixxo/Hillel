@@ -64,19 +64,4 @@ public class App implements Printer {
         }
     }
 
-    public static void main(String[] args) {
-
-        App printer = new App();
-
-        Message msg1 = new Message("Тестове" , "Микита");
-        printer.print(msg1);
-
-        Message msg2 = new Message("Анон" , "");
-        printer.print(msg2);
-
-        Message msg3 = new Message("" , "");
-        printer.print(msg3);
-
-    }
-
 }
